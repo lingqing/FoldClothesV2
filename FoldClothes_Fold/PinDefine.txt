@@ -1,0 +1,38 @@
+PORT	------>		FUN
+
+0		------> 	Serial Rx
+1		------> 	Serial Tx
+2		------> 	ext interrupt (TSC3200 OUT)
+3		------> 	Motor1 run
+4		------> 	Motor1 dir
+5		------> 	Motor2 run
+6		------> 	Motor2 dir
+7		------> 	Motor3 run
+8		------> 	Motor3 dir
+9		------> 	Servo pwm
+10		------> 	sensor postion limit 2
+11		------> 	sensor postion limit 1
+12		------> 	sensor postion limit 3
+13		------> 	sensor clothes detect
+14(A0)	------> 	TSC3200 S0
+15(A1)	------> 	TSC3200 S1
+16(A2)	------> 	TSC3200 S2
+17(A3)	------> 	TSC3200 S3
+18(A4)	------> 	NC
+19(A5)	------> 	NC
+
+// 在3个限位传感器的地方，添加 input down 下拉电阻
+
+声音编号
+001     初始化完成，开始工作
+002         叠衣小助手可以叠衣服了，请您将衣服轻轻平放在叠衣板上，然后将您的手远离叠衣板
+
+010     衣服颜色无法识别
+016     没有检测到衣服
+017     检测到衣服，开始识别颜色
+018     开始归类衣服
+019     衣服叠完，请取走衣服
+
+020     开始叠衣服
+
+021     衣服已经取走，叠下一件衣服

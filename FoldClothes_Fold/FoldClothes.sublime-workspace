@@ -1,0 +1,2821 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"waitF",
+				"waitForClearClothes"
+			],
+			[
+				"HI",
+				"HIGH"
+			],
+			[
+				"User",
+				"UserServo"
+			],
+			[
+				"servoP",
+				"servoPlate"
+			],
+			[
+				"ifd",
+				"ifdef\t\\#ifdef"
+			],
+			[
+				"wait",
+				"waitForPutClothes"
+			],
+			[
+				"color",
+				"colorClothes"
+			],
+			[
+				"ata",
+				"attach"
+			],
+			[
+				"pinLim",
+				"pinLimitC"
+			],
+			[
+				"pinDir",
+				"pinDirB"
+			],
+			[
+				"Music",
+				"MusicPlayer"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"wa",
+				"waitForConfirm"
+			],
+			[
+				"set",
+				"setPlayMode"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"cmd",
+				"cmddata"
+			],
+			[
+				"w",
+				"waitForConfirm"
+			],
+			[
+				"read",
+				"readPos"
+			],
+			[
+				"rea",
+				"readPos"
+			],
+			[
+				"mi",
+				"millis\tArduino millis()"
+			],
+			[
+				"un",
+				"unsigned"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"Mus",
+				"MusicPlayer"
+			],
+			[
+				"M",
+				"MusicPlayer"
+			],
+			[
+				"if",
+				"if\tArduino if"
+			],
+			[
+				"whi",
+				"whirlPlateToInit"
+			],
+			[
+				"sw",
+				"switch\tArduino switch"
+			],
+			[
+				"det",
+				"detectClothesColor"
+			],
+			[
+				"co",
+				"colorClothes"
+			],
+			[
+				"de",
+				"delay\tArduino delay()"
+			],
+			[
+				"s",
+				"sensorState"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"di",
+				"digitalRead"
+			],
+			[
+				"l",
+				"limitPin"
+			],
+			[
+				"LIM",
+				"LIMIT_BACK"
+			],
+			[
+				"LI",
+				"LIMIT_RIGHT"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"u",
+				"uint8_t"
+			],
+			[
+				"mo",
+				"motor1"
+			],
+			[
+				"sp",
+				"speedVol"
+			],
+			[
+				"a",
+				"analogWrite"
+			],
+			[
+				"dir",
+				"dirPinA"
+			],
+			[
+				"MoTorp",
+				"MOTOR1_PWM"
+			],
+			[
+				"MOTOR",
+				"MOTOR1_DIR"
+			],
+			[
+				"MoTor1",
+				"MOTOR1_DIR"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "FoldClothes.ino",
+			"settings":
+			{
+				"buffer_size": 7556,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "UserServo.cpp",
+			"settings":
+			{
+				"buffer_size": 794,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "UserServo.h",
+			"settings":
+			{
+				"buffer_size": 253,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ColorSensor.cpp",
+			"settings":
+			{
+				"buffer_size": 4455,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ColorSensor.h",
+			"settings":
+			{
+				"buffer_size": 697,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "UserMotor.cpp",
+			"settings":
+			{
+				"buffer_size": 4007,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "UserMotor.h",
+			"settings":
+			{
+				"buffer_size": 739,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "PinDefine.txt",
+			"settings":
+			{
+				"buffer_size": 789,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Repository"
+			],
+			[
+				"con",
+				"Package Control: Add Channel"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ',' ')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/WorkFiles/ArduinoWork/FoldClothes/MusicPlayer.cpp",
+		"/E/WorkFiles/ArduinoWork/FoldClothes/MusicPlayer.h",
+		"/E/WorkFiles/ArduinoWork/FoldClothes/ColorSensor.cpp",
+		"/E/WorkFiles/ArduinoWork/FoldClothes/ColorSensor.h",
+		"/D/Program Files (x86)/Assist/Sublime Text/Data/Packages/User/Side Bar.sublime-settings",
+		"/E/WorkFiles/ArduinoWork/FoldClothes/FoldClothes.ino",
+		"/E/WorkFiles/ArduinoWork/FoldClothes/UserMotor.cpp",
+		"/E/WorkFiles/ArduinoWork/FoldClothes/UserMotor.h",
+		"/E/WorkFiles/ArduinoWork/FoldClothes/PinDefine.txt",
+		"/D/Program Files (x86)/Assist/Sublime Text/Data/Packages/Arduino-like IDE/Main.sublime-menu",
+		"/C/Users/Andy/Documents/Tencent Files/1171582878/FileRecv/串口指令控制播放SD及U盘文件模块V20160124/mp3_arduino/mp3_arduino.ino",
+		"/C/Users/Andy/Documents/Tencent Files/1171582878/FileRecv/串口指令控制播放SD及U盘文件模块V20160124/mp3_arduino/MusicPlayer.h",
+		"/C/Users/Andy/Documents/Tencent Files/1171582878/FileRecv/串口指令控制播放SD及U盘文件模块V20160124/mp3_arduino/MusicPlayer.cpp",
+		"/C/Users/Andy/Desktop/Arduino电机驱动扩展板用户资料/Motor_drive_test/Motor_drive_test.ino",
+		"/C/Users/Andy/Desktop/L293D资料/AF_Motor/AF_Motor/AFMotor.h",
+		"/C/Users/Andy/Desktop/L293D资料/AF_Motor/AF_Motor/AFMotor.cpp",
+		"/C/Users/Andy/Desktop/L293D资料/AF_Motor/AF_Motor/examples/MotorParty/MotorParty.pde",
+		"/C/Users/Andy/Desktop/L293D资料/AF_Motor/AF_Motor/examples/AFMotor_ConstantSpeed/AFMotor_ConstantSpeed.pde",
+		"/C/Users/Andy/Desktop/L293D资料/AF_Motor/AF_Motor/examples/AFMotor_MultiStepper/AFMotor_MultiStepper.pde",
+		"/D/Program Files (x86)/Assist/Sublime Text/Data/Packages/Stino-ST4ArduinoIDE/preset/platform.settings",
+		"/D/Program Files (x86)/Assist/Sublime Text/Data/Packages/User/arduino-cli.sublime-settings",
+		"/C/Windows/System32/drivers/etc/hosts"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"waitForPutClothes",
+			"detectClothesColor",
+			"myServo",
+			"servoPlate",
+			"myServo",
+			"foldClothes",
+			"colorSensor",
+			"colorClothes",
+			"servoTest",
+			"PLATE_PIN",
+			"colorClothes",
+			"FORWARD",
+			"MOTOR3_DIR_A",
+			"MOTOR2_DIR_A",
+			"MOTOR1_DIR_A",
+			"BRACK",
+			"pinDir",
+			"pinRun",
+			"pinDirA",
+			"pinDirB",
+			"pinDirA",
+			"limitPin",
+			"dirPinB",
+			"dirPinA",
+			"INPUT_PULLDOWN",
+			"Ve",
+			"ve",
+			">=",
+			"sensorState",
+			"12",
+			"speed",
+			"a",
+			"latch_tx",
+			"enable",
+			"latch_state",
+			"_BV",
+			"MOTOR1_A"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "FoldClothes.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								629,
+								629
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 144.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "UserServo.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								750,
+								750
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										756,
+										757
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										736,
+										737
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "UserServo.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										239,
+										240
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										224,
+										225
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ColorSensor.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3467,
+								3467
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										4453,
+										4454
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2953,
+										2954
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 912.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "ColorSensor.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										690,
+										696
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/hash.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										7
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "UserMotor.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4007,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2157,
+								2180
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1651.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "UserMotor.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								634,
+								634
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										665,
+										666
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										634,
+										635
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 82.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "PinDefine.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								789,
+								789
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 421.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475156.819249":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475242.387774":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475290.925031":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475437.053946":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475512.467015":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475566.731968":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475830.694241":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475888.118059":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476057.747563":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476275.588264":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476358.411726":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476363.500946":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476428.38775":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476605.932222":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476776.620103":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476830.713305":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476886.546085":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476962.175435":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466477960.694327":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478017.611802":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478101.93404":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478127.362526":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478149.446605":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478162.464495":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478183.226304":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478230.968805":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478255.443822":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478353.79175":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478441.36117":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478729.424685":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466585459.649666":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466585495.251743":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466585514.100724":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466586245.138851":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466586371.384594":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466586436.45622":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466588503.219413":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466588989.140902":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466590334.304286":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466590411.401404":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466590424.05739":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466590805.155225":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466590926.536537":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466590983.654625":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466591043.81799":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466591243.927472":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466591591.173693":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466592179.29048":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466594422.932364":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466594670.037108":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466594742.635031":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466594878.072321":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466595008.601311":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466595111.036215":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466595201.810362":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466595366.203182":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466595597.120726":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466595770.625656":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596110.732527":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596502.395612":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596522.565455":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596720.270757":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596742.189922":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596788.850316":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596831.40946":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596860.32902":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466597250.880275":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466597281.147341":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466597476.933271":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466597863.497443":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466597933.017961":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466598292.983753":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466598629.114428":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599301.567909":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599366.042539":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599411.949615":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599484.507051":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599489.410436":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599573.232991":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599666.452993":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599669.367601":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599920.132918":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599976.917494":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466600129.724304":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466601546.879285":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466601771.563567":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466602367.74577":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466603654.966995":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466604549.260576":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466604627.800102":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466604648.213569":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466604708.437025":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466668293.134027":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466668472.406766":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466668594.302214":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466672420.844854":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466673803.263044":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466674107.024569":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466674219.138404":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466674293.594455":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466679009.050594":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466679106.741995":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466681284.481258":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466681980.144892":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466682242.517951":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466682365.701802":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466682392.164607":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466687084.96538":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466687227.03453":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466687560.489387":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466687634.01903":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466687925.684376":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466688381.392002":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466688456.854495":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466688840.663352":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690238.847212":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690669.900614":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690879.226516":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466694563.222728":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466694668.596427":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466694745.159109":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466695211.924367":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466695304.320995":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466695998.259101":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696475.88129":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696752.213366":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696792.607648":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696842.778445":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696854.357629":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696901.821123":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696911.60306":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696921.63511":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696931.22983":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466731874.827637":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466731888.343796":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466732002.738889":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466734688.108912":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466734781.676662":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466735020.56458":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466735052.870655":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466735107.846882":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466735783.479968":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467028850.725242":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467028861.781648":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467028870.789034":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467028881.599604":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467029095.013518":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467029201.198618":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467029224.437349":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467029314.202877":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467029412.365107":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467030481.117501":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467040339.452282":
+	{
+		"height": 124.0
+	},
+	"output.build|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467042142.466401":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475166.71325":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475249.606816":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475303.850172":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475308.662858":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475442.41353":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475519.42037":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475571.107089":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475575.779147":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475837.604604":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466475894.555825":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476062.763415":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476281.494696":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476365.985396":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476433.997396":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476610.213696":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476617.260849":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476783.452116":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476837.416707":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476894.165024":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466476966.563697":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478735.081143":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478739.646819":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466478858.1787":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466585520.57856":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466585544.413035":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466585554.779375":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466585578.712693":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466586251.913955":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466586262.490485":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466586374.040986":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466586446.07995":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466588508.1212":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466588518.459179":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466588997.392224":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466589002.692958":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466589016.778635":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466590338.651242":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466590433.099993":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466590811.202371":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466590934.380645":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466590947.420188":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466590990.983089":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466591048.707231":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466591251.099662":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466591599.385697":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466592182.196772":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466592235.983097":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466594435.065743":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466594678.662791":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466594745.701837":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466594887.454142":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466595018.562764":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466595118.064668":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466595225.669812":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466595236.99949":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466595244.620924":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466595373.514777":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596114.115698":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596513.407148":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596524.846781":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596724.962132":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596792.975424":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466596862.73536":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466597283.584987":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466597483.584761":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466597494.233021":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466597880.344472":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466597938.127575":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466598296.827653":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466598635.005673":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599304.448881":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599368.968922":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599414.605982":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599493.066826":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599575.983143":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599671.133354":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599981.245795":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466599990.433612":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466600132.177526":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466601549.691895":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466601775.40746":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466602386.93352":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466603705.787108":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466604567.168795":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466604650.808348":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466604711.10899":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466668297.024806":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466668479.860199":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466668597.474206":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466668660.86462":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466673098.215202":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466673805.856897":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466674113.946766":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466674225.888629":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466674297.672766":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466679015.097748":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466679109.054586":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466681369.230183":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466681977.327362":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466681984.468236":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466681991.133265":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466682228.826444":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466687233.618585":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466687563.176027":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466687636.252454":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466687669.801274":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466687705.126748":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466687928.081734":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466688111.475662":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466688258.726428":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466688308.083917":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466688385.281196":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466688459.392266":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466688588.587696":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466688651.886848":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466688894.320437":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466688919.12241":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466689172.113092":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466689381.627391":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466689463.001216":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466689535.167822":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466689574.969409":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466689645.346947":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466689720.359478":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466689828.707761":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466689845.417376":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466689942.324779":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690084.856301":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690130.472494":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690244.340232":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690277.197657":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690337.440454":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690474.30602":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690527.654621":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690672.47152":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690789.213829":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690804.925305":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466690882.227727":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466691005.647966":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466691176.675839":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466694771.281306":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466695170.947694":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466695215.63877":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466695233.565057":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466695257.374285":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466695306.831726":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696000.947702":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696183.840727":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696489.821924":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466696919.197418":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466731903.953733":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466734691.752747":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466734763.879711":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466734785.513599":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466734840.362251":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466735055.191803":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466735067.245637":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466735110.526564":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466735341.20161":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1466735802.280468":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467024777.140078":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467024784.421573":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467024796.750242":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467026726.397255":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467026767.742536":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467026783.977569":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467026800.462598":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467026813.635":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467026869.215311":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467026880.512637":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467026890.591108":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027356.143195":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027378.55033":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027399.129282":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027410.848505":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027422.802041":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027439.396441":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027463.928733":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027472.960309":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027485.085792":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027512.696253":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027522.790396":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027545.54131":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027581.230163":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027590.589957":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467027649.467229":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467028887.533273":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467028974.044021":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467029097.670243":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467029227.485916":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467029316.757682":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467029415.475988":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467040345.092555":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467040376.408517":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467040391.053246":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467040403.147427":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467040533.607165":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467040547.051642":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467040564.835316":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467041003.865774":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467041372.931334":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467041729.667134":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467042144.966491":
+	{
+		"height": 124.0
+	},
+	"output.upload|E:\\WorkFiles\\ArduinoWork\\FoldClothes|1467042355.216864":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "FoldClothes.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
