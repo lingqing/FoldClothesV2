@@ -43,7 +43,7 @@
 #define PLATE_PIN     9
 
 
-// #define SPEAK
+ #define SPEAK
 // #define _TEST_
 /* ---------- type define ------------- */
 typedef enum {
@@ -51,6 +51,7 @@ typedef enum {
 	READY,
 	COLOR,
 	FOLD,
+	CLASSIFY,	// put clothes to classify box
 	WHIRL,
 	ENDING,
 	TEST,
@@ -81,7 +82,20 @@ void test()
 	//   Serial.println(i+1);
 	//     whirlPlate();
 	// }
-	getColor();
+	//getColor();
+
+	/*sender.homeInit();
+	delay(3000);
+	while (1)
+	{
+		sender.mvToPosIndex(1);
+		delay(3000);
+	}*/
+
+	/*sender.mvToPosIndex(1);*/
+	motor1.runToLimit(FORWARD, 3000);
+	delay(1000);
+	
 }
 /**
 * setup for initial
@@ -110,9 +124,12 @@ void setup() {
 	pinMode(DETECT_PIN, INPUT);
 
 	TSC_Init();
+	sender.homeInit();
+	//delay(1000);
 	// TODO TSC_Close;
 	delay(1000);
 	state = INIT;
+	//state = TEST;
 }
 /**
 * loop main
@@ -139,16 +156,21 @@ void loop() {
 	case COLOR:
 		colorGet = detectClothesColor();
 		if (0 == colorGet) state = READY;
-		else if (4 != colorGet) state = COLOR;
+		else if (4 == colorGet) state = COLOR;
 		else state = FOLD;
 		break;
 	case FOLD:
 		foldClothes();
-		state = WHIRL;
+		//state = WHIRL;
+		state = CLASSIFY;
 		break;
 	case WHIRL:
 		whirlPlate();   // to color position
 		state = ENDING;
+		break;
+	case CLASSIFY:
+		takeToBox();
+		state = READY;
 		break;
 	case ENDING:
 		whirlPlateToInit();   // to init position
@@ -161,19 +183,19 @@ void loop() {
 } // end of loop
 
   /**
-  * 鍙犺。鏈嶅彔鏉挎帶鍒剁▼搴�
+  * fold the clothes
   */
 void foldClothes()
 {
 	// motor1.runToLimit(FORWARD, 1000);
 	// 
-	motor1.runToTime(FORWARD, 600);
+	motor1.runToTime(FORWARD, 550);
 	delay(1100);
-	motor1.runToLimit(BACKWARD, 800);
+	motor1.runToLimit(BACKWARD, 900);
 	delay(1100);
 	motor2.runToTime(FORWARD, 550);
 	delay(1100);
-	motor2.runToLimit(BACKWARD, 700);
+	motor2.runToLimit(BACKWARD, 750);
 	delay(1100);
 	motor3.runToTime(FORWARD, 550);
 	delay(1100);
@@ -249,6 +271,34 @@ void whirlPlate()
 		return;
 	}
 }
+/**
+* using Arm and Slide to take clothes to box
+*/
+void takeToBox()
+{
+#ifdef SPEAK
+	player.play(18);     //     归类衣服
+	delay(5000);
+#endif;  
+	if (colorClothes == 1 || colorClothes == 2 || colorClothes == 3)
+	{
+		//sender.mvToPosIndex(colorClothes);
+		switch (colorClothes)
+		{
+		case 2:
+		case 3:
+			sender.mvToPosIndex(1);
+			break;
+		case 1:
+			sender.mvToPosIndex(3);
+			break;
+		default:
+			break;
+		}
+		
+	}
+}
+
 /**
 *
 */

@@ -19,12 +19,15 @@ class GCodeSender
 public:
 	GCodeSender();
 	bool mvToPosIndex(int);
+	void homeInit();
 
 private:
 	SoftwareSerial *sfSerial;
-	bool waitForResp(uint64_t mSec);
-	void sendCmdString(const String, uint64_t wait);
-	void sendCmdString(const String);
+	bool waitForResp(uint64_t mSec, int);
+	void GCodeSender::sendCmdString(const String str, uint64_t wait = 1000, int cmd_lines = 1);
+	void movRelative(int x, int y, int z, int e, uint64_t mSec = 3000);
+	void movAbsolute(int x, int y, int z, int e, uint64_t mSec = 3000);
+
 };
 
 

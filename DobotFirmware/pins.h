@@ -608,7 +608,7 @@
     #define Z_STEP_PIN         46
     #define Z_DIR_PIN          48
     #define Z_ENABLE_PIN       62
-    #define Z_MIN_PIN          18
+    #define Z_MIN_PIN          -1	//
     #define Z_MAX_PIN          19
 
     #define Y2_STEP_PIN        36
@@ -627,7 +627,7 @@
     #define E1_DIR_PIN         34
     #define E1_ENABLE_PIN      30
 
-	#define E_MIN_PIN		-1
+	#define E_MIN_PIN		18 // change Z_MIN_PIN to E_MIN_PIN
 	#define E_MAX_PIN		-1
 
 #if MB(RAMPS_13_EEB)  //FMM added for Filament Extruder

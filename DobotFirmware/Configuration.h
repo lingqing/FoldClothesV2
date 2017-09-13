@@ -331,6 +331,9 @@ const bool Z_MIN_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 const bool X_MAX_ENDSTOP_INVERTING = true; //false; // set to true to invert the logic of the endstop.
 const bool Y_MAX_ENDSTOP_INVERTING = true; //false; // set to true to invert the logic of the endstop.
 const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of the endstop.
+
+const bool E_MIN_ENDSTOP_INVERTING = true;
+const bool E_MAX_ENDSTOP_INVERTING = true;
 //#define DISABLE_MAX_ENDSTOPS
 //#define DISABLE_MIN_ENDSTOPS
 
@@ -364,7 +367,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define X_HOME_DIR 1
 #define Y_HOME_DIR 1
 #define Z_HOME_DIR -1
-#define E_HOME_DIR -1
+#define E_HOME_DIR 1
 
 #define min_software_endstops false // If true, axis won't move to coordinates less than HOME_POS.
 #define max_software_endstops false  // If true, axis won't move to coordinates greater than the defined lengths below.
