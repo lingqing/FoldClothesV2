@@ -1,0 +1,12 @@
+﻿d:\Program Files (x86)\Develop\VS2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB4018: “VCMessage”任务意外失败。
+d:\Program Files (x86)\Develop\VS2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB4018: System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+d:\Program Files (x86)\Develop\VS2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB4018:    在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+d:\Program Files (x86)\Develop\VS2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB4018:    在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+d:\Program Files (x86)\Develop\VS2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB4018:    在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+d:\Program Files (x86)\Develop\VS2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB4018:    在 Microsoft.Build.Shared.ResourceUtilities.FormatString(String unformatted, Object[] args)
+d:\Program Files (x86)\Develop\VS2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB4018:    在 Microsoft.Build.Utilities.TaskLoggingHelper.FormatString(String unformatted, Object[] args)
+d:\Program Files (x86)\Develop\VS2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB4018:    在 Microsoft.Build.Utilities.TaskLoggingHelper.FormatResourceString(String resourceName, Object[] args)
+d:\Program Files (x86)\Develop\VS2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB4018:    在 Microsoft.Build.Utilities.TaskLoggingHelper.LogErrorWithCodeFromResources(String messageResourceName, Object[] messageArgs)
+d:\Program Files (x86)\Develop\VS2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB4018:    在 Microsoft.Build.CPPTasks.VCMessage.Execute()
+d:\Program Files (x86)\Develop\VS2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB4018:    在 Microsoft.Build.BackEnd.TaskExecutionHost.Microsoft.Build.BackEnd.ITaskExecutionHost.Execute()
+d:\Program Files (x86)\Develop\VS2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB4018:    在 Microsoft.Build.BackEnd.TaskBuilder.<ExecuteInstantiatedTask>d__26.MoveNext()

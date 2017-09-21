@@ -16,6 +16,7 @@ GCodeSender::GCodeSender()
 */
 bool GCodeSender::mvToPosIndex(int pos)
 {
+<<<<<<< HEAD
 	 /**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~pos define ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                        |____   4                            P (90°)
@@ -70,6 +71,201 @@ bool GCodeSender::mvToPosIndex(int pos)
 		movAbsolute(90, 20, 7, 0, 2000);			// 4 --> 4.5
 		movAbsolute(90, 20, 7, 105, 5000);		 	// C --> B
 		movAbsolute(90, 40, 7, 0, 2000);		 	// 4.5 --> 4
+=======
+	//sendCmdString("G0", 3000);	// rise arm end a distance to the plane : P1		E0	
+	//sendCmdString("G0");	// line slide Arm to slide end			 : P1		E1
+	switch (pos)		 // mov arm end to box postion			 : P2-1/2/3 E1
+	{
+	case 0:						// move To home
+		sendCmdString("G95",100);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y45 Z90 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y45 Z90 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X75 Y45 Z90 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X75 Y45 Z90 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X75 Y-85 Z90 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X75 Y45 Z90 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y45 Z90 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y45 Z90 E10 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y45 Z5 E10 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y45 Z5 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y45 Z10 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y20 Z10 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y20 Z10 E10 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y20 Z90 E10 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y20 Z90 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X75 Y20 Z90 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X75 Y-85 Z90 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+		break;
+	case 1:
+		sendCmdString("G95", 100);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y45 Z90 F2000", 300);		
+		sendCmdString("G1 X95 Y45 Z90 E-100 F2000", 300);
+		sendCmdString("G1 X75 Y45 Z90 E-100 F2000", 300);		
+		sendCmdString("G1 X75 Y-75 Z90 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X75 Y45 Z90 E-100 F2000", 300);		
+		sendCmdString("G1 X95 Y45 Z90 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y45 Z90 E10 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y45 Z8 E10 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y45 Z8 E-100 F2000", 300);		
+		sendCmdString("G1 X95 Y45 Z10 E-100 F2000", 300);		
+		sendCmdString("G1 X95 Y20 Z10 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y20 Z10 E10 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y20 Z90 E10 F2000", 300);
+		sendCmdString("M114", 300);
+
+		sendCmdString("G95", 300);
+		sendCmdString("G90");
+		sendCmdString("G1 X95 Y20 Z90 E-100 F2000", 300);		
+		sendCmdString("G1 X75 Y20 Z90 E-100 F2000", 300);		
+		sendCmdString("G1 X75 Y-85 Z90 E-100 F2000", 300);
+		sendCmdString("M114", 300);
+		break;
+	case 2:
+		
+		// 1 -- 2
+		sendCmdString("G91", 100);
+		sendCmdString("G1 Y40 F2000", 1000);
+		sendCmdString("M114", 300);
+		// A -- B
+		sendCmdString("G91", 300);
+		sendCmdString("G1 E110 F2000", 3000);
+		sendCmdString("M114", 300);
+		// 2 -- 3
+		sendCmdString("G91", 300);
+		sendCmdString("G1 X10 Y115 F2000", 300);
+		sendCmdString("G1 Z-95 F2000", 2500);
+		sendCmdString("M114", 300);
+		// B -- C
+		sendCmdString("G91", 300);
+		sendCmdString("G1 E-105 F2000", 3000);
+		sendCmdString("M114", 300);
+		// 3 -- 3.5
+		sendCmdString("G91", 300);
+		sendCmdString("G1 Y-27 F2000", 1000);
+		sendCmdString("M114", 300);
+		// C -- B
+		sendCmdString("G91", 300);
+		sendCmdString("G1 E105 F2000", 2500);
+		sendCmdString("M114", 300);
+		// 3.5 -- 3
+		sendCmdString("G91", 300);
+		sendCmdString("G1 Y27 F2000", 1000);
+		sendCmdString("M114", 300);
+		// 3 - 2
+		sendCmdString("G91", 300);
+		sendCmdString("G1 Z95 F2000", 300);
+		sendCmdString("G1 X-10 Y-115 F2000", 2500);
+		sendCmdString("M114", 300);
+		// B -- A
+		sendCmdString("G91", 300);
+		sendCmdString("G1 E-110 F2000", 2500);
+		sendCmdString("M114", 300);
+		// 2 -- 1
+		sendCmdString("G91", 300);		
+		sendCmdString("G1 Y-40 F2000", 2500);
+		sendCmdString("M114", 300);
+		break;
+	default:
+		break;
+	}
+	//sendCmdString("G0"); // line slide Arm to box				 : P2-1/2/3 E2
+	//sendCmdString("G0"); // down arm end to box base			 : P3-1/2/3 E2
+	//sendCmdString("G0"); // line slide Arm to slide end			 : P2-1/2/3 E1
+	//sendCmdString("G0"); // mov arm end a distance to the plane	 : P1		E2
+	//sendCmdString("G0"); // line slide Arm to init				 : P1		E0
+	//sendCmdString("G0"); // down arm end to plane				 : P0		E0
+>>>>>>> modify the arm position to more accurate
 
 		movAbsolute(90, 40, 90, 0, 3000);		// Q --> P
 		movAbsolute(90, 40, 90, -120, 5000);		// B --> A
@@ -104,6 +300,7 @@ bool GCodeSender::mvToPosIndex(int pos)
 */
 void GCodeSender::homeInit()
 {
+<<<<<<< HEAD
 	sendCmdString("G28", 10000);
 	sendCmdString("G95\r\nG90", 500, 2);	
 	movAbsolute(95, 45, 0, 130,500);
@@ -114,6 +311,19 @@ void GCodeSender::homeInit()
 	movAbsolute(65, -85, 90, 0, 4000);
 
 	sendCmdString("M83", 300);
+=======
+	sendCmdString("G28", 5000);
+	sendCmdString("G95");
+	sendCmdString("G91", 300);
+	sendCmdString("G1 Z7 F2000", 300);	
+	sendCmdString("G1 E-120 F2000", 300);
+	sendCmdString("G90", 300);	
+	sendCmdString("M114", 300);
+	// 0 -- 1
+	sendCmdString("G91", 300);
+	sendCmdString("G1 X-25 Y-130 F2000", 3000);
+	sendCmdString("M114", 300);
+>>>>>>> modify the arm position to more accurate
 }
 /**
 * waitForResp
@@ -131,6 +341,7 @@ bool GCodeSender::waitForResp(uint64_t mSec, int cmd_lines)
 			_buf[1] = sfSerial->read();
 			if (_buf[0] == 'o'&& _buf[1] == 'k')
 			{
+<<<<<<< HEAD
 				if (++_line >= cmd_lines)
 				{
 					//while (sfSerial->read() > 0);	 // 清空接收缓存			
@@ -143,6 +354,15 @@ bool GCodeSender::waitForResp(uint64_t mSec, int cmd_lines)
 	}
 	//while (sfSerial->read() > 0);	 // 清空接收缓存			
 	//sfSerial->flush();				// 情况发送缓存	
+=======
+				sfSerial->flush();
+				return true;
+			}			
+			else _buf[0] = _buf[1];
+		}		
+	}
+	sfSerial->flush();
+>>>>>>> modify the arm position to more accurate
 	return false;
 }
 
