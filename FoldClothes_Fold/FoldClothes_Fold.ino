@@ -83,20 +83,6 @@ void test()
 	//     whirlPlate();
 	// }
 	//getColor();
-<<<<<<< HEAD
-
-	/*sender.homeInit();
-	delay(3000);
-	while (1)
-	{
-		sender.mvToPosIndex(1);
-		delay(3000);
-	}*/
-
-	/*sender.mvToPosIndex(1);*/
-	motor1.runToLimit(FORWARD, 3000);
-	delay(1000);
-=======
 	sender.homeInit();
 	delay(1000);
 	while (1)
@@ -106,7 +92,6 @@ void test()
 	}
 
 	/*sender.mvToPosIndex(1);*/
->>>>>>> modify the arm position to more accurate
 	
 }
 /**
@@ -137,19 +122,11 @@ void setup() {
 
 	TSC_Init();
 	sender.homeInit();
-<<<<<<< HEAD
 	//delay(1000);
 	// TODO TSC_Close;
 	delay(1000);
 	state = INIT;
 	//state = TEST;
-=======
-	delay(1000);
-	// TODO TSC_Close;
-	delay(1000);
-	state = INIT;
-	state = TEST;
->>>>>>> modify the arm position to more accurate
 }
 /**
 * loop main
@@ -189,11 +166,7 @@ void loop() {
 		state = ENDING;
 		break;
 	case CLASSIFY:
-<<<<<<< HEAD
 		takeToBox();
-=======
-		//takeToBox();
->>>>>>> modify the arm position to more accurate
 		state = READY;
 		break;
 	case ENDING:
@@ -213,11 +186,8 @@ void foldClothes()
 {
 	// motor1.runToLimit(FORWARD, 1000);
 	// 
-<<<<<<< HEAD
+
 	motor1.runToTime(FORWARD, 550);
-=======
-	motor1.runToTime(FORWARD, 500);
->>>>>>> modify the arm position to more accurate
 	delay(1100);
 	motor1.runToLimit(BACKWARD, 900);
 	delay(1100);
@@ -225,7 +195,7 @@ void foldClothes()
 	delay(1100);
 	motor2.runToLimit(BACKWARD, 750);
 	delay(1100);
-	motor3.runToTime(FORWARD, 550);
+	motor3.runToTime(FORWARD, 500);
 	delay(1100);
 	motor3.runToLimit(BACKWARD, 1000);
 	delay(1100);
@@ -310,7 +280,6 @@ void takeToBox()
 #endif;  
 	if (colorClothes == 1 || colorClothes == 2 || colorClothes == 3)
 	{
-<<<<<<< HEAD
 		//sender.mvToPosIndex(colorClothes);
 		switch (colorClothes)
 		{
@@ -323,11 +292,7 @@ void takeToBox()
 			break;
 		default:
 			break;
-		}
-		
-=======
-		sender.mvToPosIndex(colorClothes);
->>>>>>> modify the arm position to more accurate
+		}		
 	}
 }
 

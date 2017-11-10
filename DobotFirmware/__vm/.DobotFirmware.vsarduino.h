@@ -16,11 +16,7 @@
 #define __AVR_ATmega328P__
 #define F_CPU 16000000L
 #define ARDUINO 106013
-<<<<<<< HEAD
 #define ARDUINO_AVR_UNO
-=======
-#define ARDUINO_AVR_MEGA2560
->>>>>>> modify the arm position to more accurate
 #define ARDUINO_ARCH_AVR
 #define __cplusplus 201103L
 #define __AVR__
